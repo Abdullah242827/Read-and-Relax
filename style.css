@@ -1,0 +1,84 @@
+body {
+    background-color: #cce1f9ce;
+    color: rgb(51, 138, 252);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.hero-image {
+    background-image: url('https://images.unsplash.com/photo-1661097410573-16d926ec1ec7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6); 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+    color: rgb(7, 7, 7);
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* Card Styling */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffcc00; 
+
+.card-text {
+    font-size: 0.95rem;
+    color: #e0e0e0; 
+}
+}
+
+footer {
+    background-color: #1e1e1e; 
+    color: #ccc;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #ffcc00; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
